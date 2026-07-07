@@ -7,6 +7,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Oculta la barra del carrusel */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
 .hero-line{
 
 margin:auto;
