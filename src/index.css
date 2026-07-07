@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero-line{
+
+margin:auto;
+
+margin-top:20px;
+
+width:180px;
+
+height:2px;
+background:
+radial-gradient(circle at top,#565656 0%,#262626 40%,#0d0d0d 100%);
+background:
+
+linear-gradient(
+
+90deg,
+
+transparent,
+
+white,
+
+transparent
+
+);
+
+opacity:.7;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+@layer components {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.08),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  }
+
+  .glass-card-dark {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.08),
+      inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  }
+
+  .btn-primary {
+    @apply relative overflow-hidden px-8 py-4 rounded-full font-medium text-silver-800 transition-all duration-300;
+    background: linear-gradient(135deg, #ffffff 0%, #e8e8e8 50%, #ffffff 100%);
+    box-shadow:
+      0 4px 20px rgba(0, 0, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.9),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      0 8px 30px rgba(0, 0, 0, 0.15),
+      inset 0 1px 0 rgba(255, 255, 255, 1),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  .btn-primary:active {
+    transform: translateY(0);
+    box-shadow:
+      0 2px 10px rgba(0, 0, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  }
+
+  .btn-secondary {
+    @apply relative overflow-hidden px-6 py-3 rounded-full font-medium text-silver-700 transition-all duration-300;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.85);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  }
+
+  .section-container {
+    @apply max-w-4xl mx-auto px-6 py-16 md:py-24;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-display text-silver-900 text-center mb-4;
+  }
+
+  .section-subtitle {
+    @apply text-silver-700 text-center max-w-lg mx-auto mb-12;
+  }
+
+  .shimmer-effect {
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgb(255, 255, 255) 50%,
+      transparent 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s ease-in-out infinite;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-silver-900 via-silver-800 to-silver-700;
+  }
+
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+  .animate-delay-500 { animation-delay: 500ms; }
+  .animate-delay-700 { animation-delay: 700ms; }
+  .animate-delay-1000 { animation-delay: 1000ms; }
+}
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d4d4d4 0%, #a3a3a3 100%);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #a3a3a3 0%, #737373 100%);
+}
+
+body{
+
+background:
+linear-gradient(
+180deg,
+#5f5f5f 0%,
+#2c2c2c 35%,
+#161616 70%,
+#0d0d0d 100%
+);
+
+overflow-x:hidden;
+
+}
+
+/* --------------------- */
+/* Disco Ball */
+/* --------------------- */
+@keyframes discoFloat{
+
+0%{
+
+transform:
+translateY(0px);
+
+}
+
+50%{
+
+transform:
+translateY(-20px);
+
+}
+
+100%{
+
+transform:
+translateY(0px);
+
+}
+
+}
+
+.animate-discoball{
+
+animation:
+discoFloat
+5s
+ease-in-out
+infinite;
+
+}
+
+
