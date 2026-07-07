@@ -56,11 +56,11 @@ export function Countdown({ targetDate }: CountdownProps) {
 
   return (
     
-    <div className="flex flex-wrap justify-center gap-4 md:gap-6">
+    <div className="flex items-center justify-center gap-2 sm:gap-5 md:gap-8">
       
       {timeUnits.map((unit) => (
         <div key={unit.label} className="group">
-          <div className="glass-card rounded-2xl p-4 md:p-6 min-w-[80px] md:min-w-[100px] relative overflow-hidden">
+          <div className="glass-card rounded-2xl p-4 md:p-6 min-w-[95px] md:min-w-[100px] relative overflow-hidden">
             <div className="absolute inset-0 shimmer-effect opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <div className="relative z-10">
               <span className="block text-3xl md:text-5xl font-display font-semibold text-silver-800 text-center tabular-nums">
