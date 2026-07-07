@@ -35,9 +35,9 @@ export function AfterPartyPage() {
   const googleMapsUrl = 'https://www.google.com/maps/dir/?api=1&destination=Club+Alem%C3%A1n+Neuqu%C3%A9n,+Carmen+Figueroa+Urme%C3%B1o+1450,+Neuqu%C3%A9n';
 
   const contacts = [
-    { title: 'Cumpleañera', phone: '+54 9 299 123-4567' },
-    { title: 'Madre', phone: '+54 9 299 234-5678' },
-    { title: 'Padre', phone: '+54 9 299 345-6789' },
+    { title: 'Nina', phone: '+54 9 299 123-4567' },
+    { title: 'Ailin', phone: '+54 9 299 234-5678' },
+    { title: 'Pablo', phone: '+54 9 299 345-6789' },
   ];
 
   return (

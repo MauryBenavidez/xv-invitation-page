@@ -3,7 +3,7 @@ import { GlassCard } from './GlassCard';
 import { Gift as GiftIcon} from 'lucide-react';
 
 export function Gift() {
-  const alias = '[Alias]';
+  const alias = 'nina.dilo';
 
   return (
     <Section>

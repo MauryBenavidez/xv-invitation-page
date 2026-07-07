@@ -3,7 +3,7 @@ import { Countdown } from './Countdown';
 
 
 export function CountdownSection() {
-  const eventDate = new Date('2026-08-08T20:00:00');
+  const eventDate = new Date('2026-08-08T21:00:00');
 
   return (
     <Section>

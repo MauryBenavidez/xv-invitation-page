@@ -20,7 +20,7 @@ export function Album() {
           Para subir las fotos de recuerdos que quieras compartir conmigo y las saques en la fiesta.
         </p>
 
-        <Button href="#" variant="secondary">
+        <Button href="https://photos.app.goo.gl/KGa63gFHKZQLMVEZ7" variant="secondary">
           Ver álbum
         </Button>
       </GlassCard>

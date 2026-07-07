@@ -39,8 +39,8 @@ function ContactCard({ title, phone }: ContactCardProps) {
 export function Contacts() {
   const contacts = [
     { title: 'Nina', phone: '+54 9 299 325-0133' },
-    { title: 'Mamá', phone: '+54 9 299 413-4427' },
-    { title: 'Papá', phone: '+54 9 299 555-4227' },
+    { title: 'Ailin', phone: '+54 9 299 413-4427' },
+    { title: 'Pablo', phone: '+54 9 299 555-4227' },
   ];
 
   return (

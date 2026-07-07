@@ -55,7 +55,7 @@ export function EventInfo() {
                 Horario
               </h3>
               <p className="text-silver-700 text-xl font-medium">
-                [Horario]
+                21:00 hs
               </p>
             </div>
           </div>
