@@ -56,15 +56,9 @@ export function AfterPartyPage() {
       <div className="relative z-10">
         <header className="min-h-[70vh] flex items-center justify-center text-center px-6">
           <div>
-            <p className="text-silver-900 uppercase tracking-[0.3em] text-sm md:text-base mb-6 animate-fade-in-down">
-              Invitación Exclusiva
-            </p>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-semibold text-gradient mb-6 animate-fade-in">
-              After Party
+              La noche no termina acá
             </h1>
-            <p className="text-xl md:text-2xl text-silver-600 animate-fade-in-up animate-delay-200">
-              La diversión continúa después de las 00:00 hs
-            </p>
           </div>
         </header>
 
@@ -88,7 +82,7 @@ export function AfterPartyPage() {
                     09 de Agosto de 2026
                   </p>
                   <p className="text-silver-500 mt-1">
-                    A partir de las 00:00 hs
+                    A partir de las 00:00 hs hasta las 05:30 hs
                   </p>
                 </div>
               </div>
