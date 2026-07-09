@@ -56,7 +56,7 @@ export function AfterPartyPage() {
       <div className="relative z-10">
         <header className="min-h-[70vh] flex items-center justify-center text-center px-6">
           <div>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-semibold text-gradient mb-6 animate-fade-in">
+            <h1 className="text-3xl md:text-6xl lg:text-7xl font-display font-semibold text-gradient mb-6 animate-fade-in">
               La noche no termina acá
             </h1>
           </div>
